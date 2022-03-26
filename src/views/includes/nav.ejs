@@ -1,0 +1,34 @@
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="/">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAAAXNSR0IArs4c6QAAAghJREFUaEPtmN9RwkAQxndzvEsJdiB0IBU4vjIkhgrUCoQOsAIzOYZX6YASpATtAN+5nINDHAL5f5cNMptXbnfv9307t8chXOiHF8oFDJblrB4Oe5EQ77vfHaXucbFYn0MXGDmmff86UuoDALp7mI0jRB+D4LNtuNpg2ve70Xa7AsReAkLrtdPpDDAINm3C1QLLhIpJzgCuFljkuksNcJfnCAIsHSnv23KtMpgajQJAfCi54UBIOS651uqySmDK82ag9WOlHSC+ijB8qhRjYXFpsK3r+gjwVqemBhh3pAzqxNaNKQVmAvV3nhDDFYLtB/BuVhl/jlJ9qgGeC7aHWh0MYFO4jaPUgAIuEyzlVmEKFceT3E5SwQoHsCkiwQA/AWsciuh2cgJW5lZhalgc3+TtJAFWawCbUjY0wJNgrqtN91knXkhZOHaq5j12bAJav1RNYrQecSrCcGKUIyU4VynlefZBGwI5ZmMwa63CjplJadaKiNPU8nkH0H9wLOuYVnljg8FabEV27FB8bsW2WlHrbzGfx0/biV3kHh4Az0LKmdm2i6PLPA3sXpduTlLltNTvv4Qo8gHx6ijuyxHiluJt3/qtulhLmhUMRqOzvSrsmD0taTKxYzQ626vCjtnTkiYTO0ajs70q7Jg9LWkysWM0Oturwo7Z05ImEztGo7O9KuyYPS1pMv0AmYUGRlXKgJQAAAAASUVORK5CYII="/>
+      </a>
+      <button class="navbar-toggler bg-dark navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+        <ul class="navbar-nav ms-auto">
+          
+          <% if(user) { %>
+            <li class="nav-item">
+              <a class="nav-link" href="/contato/logar">Nova Agenda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login/logout">Sair</a>
+            </li>
+          <% } else { %>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/login/logar">Entrar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/login/cadastro">Registra-se</a>
+            </li>
+            <% } %>
+    
+        </ul>
+      </div>
+
+    </div>
+  </nav>

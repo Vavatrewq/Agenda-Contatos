@@ -1,0 +1,37 @@
+<%- include('includes/head') %>
+
+<%- include('includes/nav') %>
+
+<div class="container">
+  <div class="row">
+    <section class="caol-lg-2"></section>
+
+    <section class="caol-lg-8 my-3">
+      <h1 class="text-center">Cadastra-se</h1>
+    </section>
+    
+    <section class="caol-lg-2 m-auto"  style="max-width: 500px;">
+      <p class="text-center lead">Crie Sua Conta de Login Abaixo.</p>
+
+          <div class="col-lg">
+            <h4>Faça seu cadastro</h4>
+            <p>preencha as informações!</p>
+            <form action="/login/register" method="post">
+              <input type="hidden" name="_csrf" value=<%= csrfToken %>>
+              <div class="mb-3">
+                <label class="form-label">Seu Email</label>
+                <input type="email" class="form-control" name='email'>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Sua Senha</label>
+                <input type="password" class="form-control" name='password'>
+              </div>
+              <button type="submit" class="btn btn-primary">Criar conta</button>
+              <p class="text-center my-3">Casso possui conta faça login: <a href="/login">login</a></p>
+            </form>
+          </div>
+    </section>
+  </div>
+</div>
+
+<%- include('includes/footer') %>

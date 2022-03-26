@@ -1,0 +1,79 @@
+<%- include('includes/head') %>
+<%- include('includes/nav') %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2"></div>
+
+    <% if(user) { %>
+    <div class="col-lg-8 my-3">
+      <h1 class="text-center">Agenda</h1>
+      <p class="text-center lead">Crie apague ou altere qualquer contato.</p>
+
+      <%- include('includes/messages') %>
+
+      <% if(contatos.length > 0) { %>
+      <div class="responsive-table">
+        <table class="table my-5">
+          <% contatos.forEach(contato => { %>
+          <tr class="tableBar text-center my-5">
+            <td><%= contato.nome %></td>
+            <td><%= contato.sobrenome %></td>
+            <td><%= contato.telefone %></td>
+            <td><%= contato.email %></td>
+            <td class="tableButton m-lg-auto"><a href="/contato/logar/<%= contato._id %>"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT5JREFUSEvVlLtRw0AQhv89DSYEEh4ZHeAObHfgFgQNmJGJsWMcqAFbJbgERAdHBSgDkeCUh7SMbIvR46SzHg64UNJ83+6/pyXs+dCe+WgscD5Gx/gW9+tCD8KpeWKvkkU3EkRw/jIeAXS3UEmdYJCUNBIs3sYuiHuZmFOSRgLn/a7LHLoAjpISBk1vzmaT6FllwTqWT2NJQtyapw9SJaktyGS+IhIDheSZOkE/nsPOHSgGGiWQloRs0+HPsPKQC+Bx7H8S1T+l7UAD3zCZnq7PZ/3Kgp3gQCrzrKSwgzbghde0LbhS0CZcKVj4lgRwVbJlSzMvnYHzOrpkYby0Bc914PjWkIFlgaBS5TEjdYvm/nhC4M1uT59a8FwHBeu3Njwv8C0PTB4TXAGWCANpXtheyUy0r7SrQkvQfPD/Bb+Z2LwZdozhvAAAAABJRU5ErkJggg=="/></a></td>
+            <td class="tableButton m-lg-auto"><a class="text-danger" href="/contato/delete/<%= contato._id %>"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZdJREFUSEvFVd1RwzAMlmIPABO0G7RMQNkA3uu7MAHdhI4QmrzTDegGpBMAGzCAHXFyk5zipD2nvR55tfX9SPochCt/eGV8GCSwxqRI9AKI8ygBRCUlyVpvNm/h/Q4BpelNZe1HNHCIRlQmWj9glv02Rx0CZ0wJADMA+CGildK6xCz7PuWC0nTqrJ0j4hoAJkBUqqK46xE4Y1YA8MrgiVJzqSKmTd69cyxwQgDPOs8zrmsdNOqJ6EkXxTYGNLxjl8tHRHyXLiQBcUGi1K1Uz0VK613oiBU7axdSDLercu6LcVSee+weQXPAh1KRHJ5chtCxM8YLjSKo+7rzg683hIvFpu0TpRbS3SgCBgtJfN8P+eiB89Fogh7JYbKD4JcRyAAOBKrZqNEOgnTva6B2JuF2jSIIwXmgfsjOdQZ/9pDbNQ16Lgd/0Zo2Wbha0MY+F9KxynP/1J9M8hiCum2fADA99th1Ih4L7p/rqpohET/XU85Io37QQSzwkXu9ALYtssbsEOD+TII9Aaybf4DE+J+f/pkuBsv+ANCLWCjJMkcgAAAAAElFTkSuQmCC"/></a></td>
+          </tr>
+          <% }); %>
+        </table>
+      </div>
+      <% } else { %>
+        <p class="text-center lead">Não existem contatos!</p>
+      <% } %>
+
+    </div>
+
+    <% } else { %>
+
+      <div class="container text-center my-5">
+        <h1>Agenda</h1>
+        <div class=" d-lg-flex align-items-center">
+          <img src="/assets/img/Online learning-bro.png" class="agenda rounded mx-auto d-block float-lg-start" width="50%" alt="agenda">
+          <div class="my-5">
+            <h1>Projeto Agenda de Contatos</h1>
+            <p>
+              Esse projeto foi desenvolvido com objetivo de aplicar meus conhecimentos e ferramentas do NodeJs, foi construido com EJS CSS JS e dependências de desenvolvimento e produção, e aplicando CSRF >> proteção contra cross-site request forgery (falsificação de solicitação entre sites).
+            </p>
+            <h2>Tecnologias Utilizadas</h2>
+            <div class="d-flex justify-content-center fs-5">
+              <ul>
+                <li>bcryptjs</li>
+                <li>connect-flash</li>
+                <li>connect-mongo</li>
+                <li>core-js</li>
+                <li>css-loader</li>
+                <li>csurf</li>
+                <li>dotenv</li>
+                <li>ejs</li>
+              </ul>
+              <ul>
+                <li>express</li>
+                <li>express-session</li>
+                <li>helmet</li>
+                <li>mongoose</li>
+                <li>regenerator-runtime</li>
+                <li>style-loader</li>
+                <li>validator</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <% } %>
+    
+    <div class="col-lg-2"></div>
+  </div>
+</div>
+
+<%- include('includes/footer') %>
