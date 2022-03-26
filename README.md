@@ -9,8 +9,9 @@
 ### npm start -> nodemon
 ### npm run dev -> webpack/babel
 
-#### 
+#### Funcionalidades ao front e back...
 
 ![Function](https://github.com/Vavatrewq/Agenda-Contatos/blob/master/public/assets/gif/AnimaçãoFunc1.gif)
 
+### Resposivo
 ![resposive](https://github.com/Vavatrewq/Agenda-Contatos/blob/master/public/assets/gif/AnimaçãoFunc2.gif)
