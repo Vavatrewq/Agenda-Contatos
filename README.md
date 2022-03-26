@@ -6,6 +6,9 @@
 
 ### Aplicando Todo meu conhecimento de ejs CSS JS MongoDB etc...
 
+### npm start -> nodemon
+### npm run dev -> webpack/babel
+
 #### 
 
 ![Function](https://github.com/Vavatrewq/Agenda-Contatos/blob/master/public/assets/gif/AnimaçãoFunc1.gif)
