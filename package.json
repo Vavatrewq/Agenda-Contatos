@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js --ignore public --ignore frontend",
-    "dev": "webpack -w"
+    "dev": "webpack -w",
+    "start-dev": "npm run dev && npm run start"
   },
   "author": "",
   "license": "ISC",
