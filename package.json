@@ -1,14 +1,12 @@
 {
-  "name": "mongoserver",
+  "name": "schedule-info-contact",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start-dev": "nodemon server.js --ignore public --ignore frontend",
-    "dev": "webpack -w",
-    "start": "npm run dev && node server.js"
+    "start": "node server.js --ignore public --ignore frontend"
   },
-  "author": "",
+  "author": "Vavatrewq",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.6.4",
