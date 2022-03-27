@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js --ignore public --ignore frontend && npm run dev"
+    "dev": "webpack -w",
+    "start": "nodemon server --ignore public --ignore frontend"
   },
   "author": "Vavatrewq",
   "license": "ISC",
