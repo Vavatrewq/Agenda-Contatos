@@ -1,6 +1,6 @@
 # Agenda-Contatos
 
-## Projeto Criação de Agenda / Aplicando Basse de dado MongoDB
+## Projeto Criação de Agenda / Aplicando Base de dados MongoDB
 
 ### Projeto Desenvolvido no curso Udemy Luiz Otávio Miranda...
 
