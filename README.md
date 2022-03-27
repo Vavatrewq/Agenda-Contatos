@@ -6,7 +6,7 @@
 
 ### Aplicando Todo meu conhecimento de ejs CSS JS MongoDB etc...
 
-### <<Terminal>>
+### << Terminal >>
 
 ### npm start -> nodemon
 ### npm run dev -> webpack/babel
