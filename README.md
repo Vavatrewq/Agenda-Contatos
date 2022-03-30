@@ -2,7 +2,7 @@
 
 ## Projeto Criação de Agenda / Aplicando Base de dados MongoDB
 
-### Projeto Desenvolvido no curso Udemy Luiz Otávio Miranda...
+### Projeto Desenvolvido no curso Udemy Luiz Otávio Miranda
 
 ### Aplicando Todo meu conhecimento de ejs CSS JS MongoDB etc...
 
