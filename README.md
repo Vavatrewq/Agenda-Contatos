@@ -6,6 +6,11 @@
 
 ### Aplicando Todo meu conhecimento de ejs CSS JS MongoDB etc...
 
+### Você precisa criar arquivo .env no diretorio base e adicionar a URL mongoDB. 
+
+## Ex: 
+#### CONNECTIONSTRING=mongodb+srv://Exemplo:96awd46ada6wd1@projetcOne.ov0am.mongodb.net/myColletionBasse?retryWrites=true&w=majority
+
 ### << Terminal >>
 
 ### npm start -> nodemon
