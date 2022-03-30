@@ -13,6 +13,8 @@
  <li>Sitema CRUD de informação dados em contatos usuário.</li>
  <li>Responsividade.</li>
 <ul>
+ 
+<div align="center">
 
 <h2>Ferramentas de Criação:</h2>
 <p>EJS | CSS | JS | NODEJS | MONGODB</p>
@@ -29,6 +31,7 @@
  <li>npm run dev -> webpack/babel</li>
  <li>Responsividade.</li>
 <ul>
+</div>
 
 <br><p>Funcionalidades:</p>
 
@@ -37,3 +40,5 @@
 <p>Responsividade</p>
   
 ![resposive](https://github.com/Vavatrewq/Agenda-Contatos/blob/master/public/assets/gif/AnimaçãoFunc2.gif)
+ 
+ <p align="center">2022 | Wagner De Souza Mendes | DEV</p>
