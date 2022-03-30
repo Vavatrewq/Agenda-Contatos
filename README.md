@@ -29,7 +29,6 @@
 <ul>
  <li>npm start -> nodemon</li>
  <li>npm run dev -> webpack/babel</li>
- <li>Responsividade.</li>
 <ul>
 </div>
 
