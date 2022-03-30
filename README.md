@@ -5,8 +5,7 @@
 ### Projeto Desenvolvido no curso Udemy Luiz Otávio Miranda.
 
 ### Objetivo:
-#### Desenvolver aplicação agenda de contatos que salva na base de dados MongoDB, utilizando modelagem de tabela mongoose e ferramentas de validação
-#### e criptografia para proteção contra CSRF e CSURF.
+#### Desenvolver aplicação agenda de contatos que salva na base de dados MongoDB, utilizando modelagem mongoose, e ferramentas de validação e criptografia para proteção contra CSRF e CSURF.
 
 ### Funcionalidades:
 #### Sistema de login/register.
