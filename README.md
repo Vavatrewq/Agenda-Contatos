@@ -22,7 +22,7 @@
 
 <h2>Uso do Sistema:</h2>
 <p>Você precisa criar arquivo .env no diretorio base e adicionar a URL mongoDB. </p>
-
+<h3>Exemplo:</h3>
 <a href="#">CONNECTIONSTRING=mongodb+srv://Exemplo:96awd46ada6wd1@projetcOne.ov0am.mongodb.net/myColletionBasse?retryWrites=true&w=majority</a>
 
 <h2><< Terminal >></h2>
