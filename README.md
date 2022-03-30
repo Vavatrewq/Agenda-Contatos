@@ -17,7 +17,7 @@
 <div align="center">
 
 <h2>Ferramentas de Criação:</h2>
-<p>EJS | CSS | JS | NODEJS | MONGODB</p>
+<p>EJS | CSS | BOOTSTRAP | JS | NODEJS | MONGODB</p>
 <p>Padrão de Projeto: >> Organização MVC <<</p>
 
 <h2>Uso do Sistema:</h2>
